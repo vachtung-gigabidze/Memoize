@@ -1,19 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%lld fileodDir %lld" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "new",
-            "value" : "%1$lld fileodDir %2$lld"
-          }
-        }
-      }
-    },
-    "🐦" : {
-
-    },
     "Hello World" : {
       "extractionState" : "manual",
       "localizations" : {
