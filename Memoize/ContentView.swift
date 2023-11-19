@@ -13,8 +13,9 @@ struct ContentView: View {
         HStack{
             CardView(isFaceUp: true)
             CardView()
+            CardView(isFaceUp: true)
             CardView()
-            CardView()
+//            Text("\(1) fileodDir \(5)")
         }
         .padding(20)
         .foregroundColor(.orange)
@@ -23,19 +24,21 @@ struct ContentView: View {
 }
 
 struct CardView : View {
-    var isFaceUp: Bool = false
+    @State var isFaceUp: Bool = false
    
     var body: some View {
-        ZStack(content:
-         {
+        ZStack {
+            let base  = RoundedRectangle(cornerRadius: 12, style: /*@START_MENU_TOKEN@*/.continuous/*@END_MENU_TOKEN@*/)
             if isFaceUp {
-                RoundedRectangle(cornerRadius: 12).foregroundColor(.white)
-                RoundedRectangle(cornerRadius: 12).strokeBorder( lineWidth: 2)
+                base.foregroundColor(.white)
+                base.strokeBorder( lineWidth: 2)
                 Text("🐦").font(.largeTitle)
             } else {
-                RoundedRectangle(cornerRadius: 12).foregroundColor(.orange)
+                base.fill()
             }
-        })
+        }.onTapGesture {
+            isFaceUp.toggle()
+        }
         
     }
 }

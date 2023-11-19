@@ -11,6 +11,7 @@
 		7933DA232B08E260006FF5AD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7933DA222B08E260006FF5AD /* ContentView.swift */; };
 		7933DA252B08E262006FF5AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7933DA242B08E262006FF5AD /* Assets.xcassets */; };
 		7933DA282B08E262006FF5AD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7933DA272B08E262006FF5AD /* Preview Assets.xcassets */; };
+		798DB6242B09F3470088EBDD /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 798DB6232B09F3470088EBDD /* Localizable.xcstrings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		7933DA222B08E260006FF5AD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7933DA242B08E262006FF5AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7933DA272B08E262006FF5AD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		798DB6232B09F3470088EBDD /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		7933DA142B08E260006FF5AD = {
 			isa = PBXGroup;
 			children = (
+				798DB6232B09F3470088EBDD /* Localizable.xcstrings */,
 				7933DA1F2B08E260006FF5AD /* Memoize */,
 				7933DA1E2B08E260006FF5AD /* Products */,
 			);
@@ -109,6 +112,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 7933DA142B08E260006FF5AD;
 			productRefGroup = 7933DA1E2B08E260006FF5AD /* Products */;
@@ -127,6 +131,7 @@
 			files = (
 				7933DA282B08E262006FF5AD /* Preview Assets.xcassets in Resources */,
 				7933DA252B08E262006FF5AD /* Assets.xcassets in Resources */,
+				798DB6242B09F3470088EBDD /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
